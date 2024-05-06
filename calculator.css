@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 100vh;
+}
+
+#calculator {
+    background-color: rgb(56, 52, 52);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container input {
+    width: 40px;
+    margin: 5px 0;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px black;
+    background-color: black;
+    color: white;
+}
+
+.button-container input:active {
+    box-shadow: none;
+}
+
+#screen {
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+#screen::placeholder {
+    color: black;
+}
